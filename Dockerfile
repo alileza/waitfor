@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-COPY ./waitfor.sh /bin/waitfor.sh
+COPY ./waitfor.sh /waitfor
 
-RUN chmod 777 /bin/waitfor.sh
+RUN chmod 777 /waitfor
 
-ENTRYPOINT [ "/bin/waitfor.sh" ]
+ENTRYPOINT [ "/waitfor" ]
