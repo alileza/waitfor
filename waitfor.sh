@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-max_retry=15
+max_retry=30
 
 for var in "$@"
 do
